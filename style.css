@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    background-image: url(../imagen/fondo-body.jpg);
+    background-size: cover;
+    font-family: "David Libre";
+    /*background-color: #00aae4;*/
+}
+/** header*/
+.header {
+    display: flex;
+    background-image: url(../imagen/fondo-arriba.jpg);
+    background-size: cover;
+    /*background-color: #a6d4f2;*/
+    padding: 40px;
+    justify-content:center;
+}
+
+.titulo1 {
+    display: flex;
+    
+}
+
+.titulo-principal {
+    font-family: "Noto Serif";
+    font-size: xx-large;
+    text-transform: uppercase;
+
+}
+
+/* main*/
+.main {
+    width: 100%;
+    /*height: 1000px;*/
+    background-color: #e2f0fb;
+    display: flex;
+}
+/*aside*/
+.aside {
+    /*background-image: url(../imagen/imagen-aside.jpg    );*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #a6d4f2;
+    width: 20%;
+
+}
+
+.foto-perfil {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    max-width: 100%;
+    border: 5px solid #84c6ed;
+    border-radius: 15px;
+
+}
+
+.nav-redes {
+    height: 10%;
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+}
+
+.redes-sociales{
+    display: inline-block; 
+    width: 23%;
+    height: 50px;  
+    margin: 0 1% 0 1%;
+    border: 2px solid #84c6ed;
+}
+
+.foto-redes{
+    width: 100%;
+    height: 100%;
+}
+
+.datos-personal {
+    height: 50%;
+}
+
+.titulo-datos {
+    display: flex;
+    height: 10%;
+    justify-content: center;
+}
+
+.ul-datos {
+    height: 80%;
+    list-style: none;
+    padding-left: 3%;
+}
+
+.ul-datos, li {
+    margin-bottom: 2px;
+}
+
+.dato-p {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.idioma{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+/*section*/
+.section {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.presentacion, .section-titulo, .primario, .secundario, .superior, .titulos {
+    width: 80%;
+    margin: 2% 0 2% 5%;
+    border: 1px solid #a6d4f2;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.presentacion {
+    /*width: 80%;
+    margin: 0 2% 0 3%;*/
+    background-color: #e2f0fb;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+
+.section-titulo, .primario, .secundario, .superior, .titulos {
+    padding-left: 3%;
+    margin-bottom: 5px;
+}
+
+/*footer*/
+
+.pie {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    /*background-color: #acafc2;*/
+    background-color: #6fa8f8;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 0 50px;
+}
+
+#email {
+    border-color:gray ;
+}
